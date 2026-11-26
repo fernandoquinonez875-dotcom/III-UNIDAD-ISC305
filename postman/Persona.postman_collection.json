@@ -1,0 +1,35 @@
+{
+  "info": {
+    "_postman_id": "f8c703e7-a3a5-43a1-ba4d-505bb0fa7206",
+    "name": "Persona",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60424732",
+    "_collection_link": "https://go.postman.co/collection/60424732-f8c703e7-a3a5-43a1-ba4d-505bb0fa7206?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Persona",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/personas/ID_ANA",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "personas",
+            "ID_ANA"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
