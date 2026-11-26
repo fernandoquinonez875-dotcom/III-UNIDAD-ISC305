@@ -22,3 +22,6 @@ Route::put('/personas/{id}', [PersonaController::class, 'update'])
 
 Route::delete('/personas/{id}', [PersonaController::class, 'destroy'])
     ->whereNumber('id');
+
+Route::delete('/personas/{id}', [PersonaController::class, 'destroy'])
+    ->whereNumber('id');
